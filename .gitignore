@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+시연자료/
+제출메일_초안.md
+결과보고서.md
+포스터_문구.md
+.DS_Store
+Thumbs.db
