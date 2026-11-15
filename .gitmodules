@@ -1,8 +1,8 @@
 [submodule "backend"]
 	path = backend
 	url = https://github.com/dku-gagyeol/GAGYEOL_BE.git
-	branch = main
+	branch = feat/policy-wiring
 [submodule "frontend"]
 	path = frontend
 	url = https://github.com/dku-gagyeol/GAGYEOL_FE.git
-	branch = main
+	branch = feat/compliance-honest
