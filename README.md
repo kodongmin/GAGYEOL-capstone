@@ -14,8 +14,8 @@
 
 | 자료 | 위치 |
 |------|------|
-| 소스 코드 — 백엔드 (Spring Boot) | [`backend/`](https://github.com/dku-gagyeol/GAGYEOL_BE/tree/feat/policy-wiring) → [dku-gagyeol/GAGYEOL_BE](https://github.com/dku-gagyeol/GAGYEOL_BE/tree/feat/policy-wiring) |
-| 소스 코드 — 프론트엔드 (Next.js) | [`frontend/`](https://github.com/dku-gagyeol/GAGYEOL_FE/tree/feat/compliance-honest) → [dku-gagyeol/GAGYEOL_FE](https://github.com/dku-gagyeol/GAGYEOL_FE/tree/feat/compliance-honest) |
+| 소스 코드 — 백엔드 (Spring Boot) | [`backend/`](https://github.com/dku-gagyeol/GAGYEOL_BE) → [dku-gagyeol/GAGYEOL_BE](https://github.com/dku-gagyeol/GAGYEOL_BE) |
+| 소스 코드 — 프론트엔드 (Next.js) | [`frontend/`](https://github.com/dku-gagyeol/GAGYEOL_FE) → [dku-gagyeol/GAGYEOL_FE](https://github.com/dku-gagyeol/GAGYEOL_FE) |
 | 결과보고서 PDF | [docs/가결_결과보고서_레로레로.pdf](docs/가결_결과보고서_레로레로.pdf) |
 | 포스터 PDF / 이미지 (90×140cm) | [PDF](docs/가결_포스터_레로레로.pdf) · [JPG](docs/가결_포스터_레로레로.jpg) |
 | 발표자료 PDF | [docs/가결_발표자료_레로레로.pdf](docs/가결_발표자료_레로레로.pdf) |
@@ -75,7 +75,7 @@ git clone --recurse-submodules https://github.com/kodongmin/GAGYEOL-capstone.git
 cd GAGYEOL-capstone
 ```
 
-**Backend** — 자세한 내용은 [`backend/README.md`](https://github.com/dku-gagyeol/GAGYEOL_BE/tree/feat/policy-wiring)
+**Backend** — 자세한 내용은 [`backend/README.md`](https://github.com/dku-gagyeol/GAGYEOL_BE)
 
 ```bash
 cd backend
@@ -92,7 +92,7 @@ docker-compose up db
 
 그 밖의 환경 변수(`SPRING_DATASOURCE_URL`, `SPRING_DATASOURCE_USERNAME`, `SPRING_DATASOURCE_PASSWORD`, `JWT_SECRET`)는 backend README의 "환경 변수" 표를 참고하세요.
 
-**Frontend** — 자세한 내용은 [`frontend/README.md`](https://github.com/dku-gagyeol/GAGYEOL_FE/tree/feat/compliance-honest)
+**Frontend** — 자세한 내용은 [`frontend/README.md`](https://github.com/dku-gagyeol/GAGYEOL_FE)
 
 ```bash
 cd frontend
